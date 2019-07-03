@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "HCM Automation suite">
+
+
+	 <listeners>
+		<listener class-name="com.qa.ExtentReportListner.ExtentReportNG" />
+	</listeners> 
+
+   <test name = "HCM Automation Test Cases">
+      <classes>
+         <class name = "com.qa.tests.LoginPageTest"> </class>
+         <class name = "com.qa.tests.HomePageTest"></class>
+         <class name = "com.qa.tests.SubHomePageTest"></class>
+         <class name = "com.qa.tests.HRPageTest"></class>
+         
+         
+   	</classes>
+	</test>
+</suite>
